@@ -26,6 +26,7 @@ Package: epics-caputlog-dev
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
          libcaputlog3.1.5 (= ${binary:Version}),
+         libjs-jquery,
 Description: Logging of CA write operations
  .
  This package provides files needed to build an
