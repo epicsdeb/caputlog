@@ -14,7 +14,7 @@ X-Epics-Targets: .*
 Standards-Version: 3.8.0
 Homepage: http://www-csr.bessy.de/control/SoftDist/caPutLog/
 
-Package: libcaputlog3.0
+Package: libcaputlog3.3.3
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -25,7 +25,7 @@ Description: Logging of CA write operations
 Package: epics-caputlog-dev
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
-         libcaputlog3.1.5 (= ${binary:Version}),
+         libcaputlog3.3.3 (= ${binary:Version}),
          libjs-jquery,
 Description: Logging of CA write operations
  .
