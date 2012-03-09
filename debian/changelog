@@ -1,3 +1,9 @@
+caputlog (3.3.3-2) unstable; urgency=low
+
+  * Missing .so file
+
+ -- Michael Davidsaver <mdavidsaver@bnl.gov>  Fri, 09 Mar 2012 14:53:19 -0500
+
 caputlog (3.3.3-1) unstable; urgency=low
 
   * Initial release.
