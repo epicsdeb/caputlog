@@ -174,3 +174,5 @@ doctest:
 	      "results in $(BUILDDIR)/doctest/output.txt."
 
 endif
+
+runtests:
