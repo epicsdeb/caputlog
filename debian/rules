@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE=1
+
+binary binary-arch binary-indep build install clean:
+	dh $@ --with epics -Sepicsmake
+install: build
+binary-arch binary-indep: install
+binary: binary-arch binary-indep
