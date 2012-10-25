@@ -1,3 +1,9 @@
+caputlog (3.3.3-3) unstable; urgency=low
+
+  * Rebuild for EPICS 3.14.12
+
+ -- Michael Davidsaver <mdavidsaver@bnl.gov>  Thu, 25 Oct 2012 16:39:51 -0400
+
 caputlog (3.3.3-2) unstable; urgency=low
 
   * Missing .so file
