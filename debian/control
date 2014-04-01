@@ -34,32 +34,32 @@ Description: Logging of CA write operations
 
 Package: rtems-caputlog-mvme2100
 Architecture: all
-Depends: ${rtems:Depends}, epics-caputlog-dev (= ${binary:Version}),
-         ${misc:Depends},
+Depends: ${rtems:Depends}, epics-caputlog-dev (>= ${binary:Version}),
+         epics-caputlog-dev (<< ${binary:Version}.1~), ${misc:Depends},
 Description: Logging of CA write operations
  .
  This package contains support for the MVME2100 PowerPC based VME SBC.
 
 Package: rtems-caputlog-mvme2307
 Architecture: all
-Depends: ${rtems:Depends}, epics-caputlog-dev (= ${binary:Version}),
-         ${misc:Depends},
+Depends: ${rtems:Depends}, epics-caputlog-dev (>= ${binary:Version}),
+         epics-caputlog-dev (<< ${binary:Version}.1~), ${misc:Depends},
 Description: Logging of CA write operations
  .
  This package contains support for the MVME2307 PowerPC based VME SBC.
 
 Package: rtems-caputlog-mvme3100
 Architecture: all
-Depends: ${rtems:Depends}, epics-caputlog-dev (= ${binary:Version}),
-         ${misc:Depends},
+Depends: ${rtems:Depends}, epics-caputlog-dev (>= ${binary:Version}),
+         epics-caputlog-dev (<< ${binary:Version}.1~), ${misc:Depends},
 Description: Logging of CA write operations
  .
  This package contains support for the MVME3100 PowerPC based VME SBC.
 
 Package: rtems-caputlog-mvme5500
 Architecture: all
-Depends: ${rtems:Depends}, epics-caputlog-dev (= ${binary:Version}),
-         ${misc:Depends},
+Depends: ${rtems:Depends}, epics-caputlog-dev (>= ${binary:Version}),
+         epics-caputlog-dev (<< ${binary:Version}.1~), ${misc:Depends},
 Description: Logging of CA write operations
  .
  This package contains support for the MVME5500 PowerPC based VME SBC.
