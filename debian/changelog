@@ -1,3 +1,10 @@
+caputlog (3.4-1) unstable; urgency=low
+
+  * Add include files to package
+  * Imported Upstream version 3.4
+
+ -- Martin Konrad <konrad@frib.msu.edu>  Fri, 04 Apr 2014 17:05:45 -0400
+
 caputlog (3.3.3-3) unstable; urgency=low
 
   * Rebuild for EPICS 3.14.12
