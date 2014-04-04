@@ -1,3 +1,9 @@
+caputlog (3.4-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Martin Konrad <konrad@frib.msu.edu>  Fri, 04 Apr 2014 14:49:44 -0400
+
 caputlog (3.3.3-3) unstable; urgency=low
 
   * Rebuild for EPICS 3.14.12
