@@ -1,6 +1,47 @@
 Release Notes
 =============
 
+.. _R3-4:
+
+Changes since R3-3-3
+--------------------
+
+* expose some internal APIs to support non-IOC servers
+
+  This patch was provided by John Priller <priller@frib.msu.edu>
+  in order to user caPutLog inside the CA-Gateway. The header files
+  caPutLogTask.h and caPutLogAs.h are now installed, and export
+  the additional function caPutLogDataCalloc, enabling user code to
+  send their own data (of type LOGDATA) to the caPutLogTask.
+  Apart from a few small fixes normal use on an IOC is unaffected.
+
+.. _R3-3-3:
+
+Changes since R3-3-2
+--------------------
+
+* replace %T by %H:%M:%S for strftime
+
+  Older VxWorks versions do not know the %T format specifier.
+
+.. _R3-3-2:
+
+Changes since R3-3-1
+--------------------
+
+* base -> 3-14-12-2-1
+
+* fixed tarball generation rules
+
+* suppress darcs dist output if -s flag is given to make
+
+.. _R3-3-1:
+
+Changes since R3-3
+--------------------
+
+* base release -> 3-14-12-1-1
+
 .. _R3-3:
 
 Changes since R3-2
