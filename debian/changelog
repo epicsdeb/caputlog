@@ -1,7 +1,22 @@
+caputlog (3.4-2) unstable; urgency=medium
+
+  [ Martin Konrad ]
+  * Fix wrong version number in package name
+  * Silence Lintian error 'unstripped-binary-or-object'
+
+  [ Michael Davidsaver ]
+  * print config option on startup
+  * quiet warning about int -> void* -> int
+
+ -- Michael Davidsaver <mdavidsaver@bnl.gov>  Thu, 02 Jul 2015 11:39:14 -0400
+
 caputlog (3.4-1) unstable; urgency=low
 
+  [ Martin Konrad ]
   * Add include files to package
   * Imported Upstream version 3.4
+
+  [ Michael Davidsaver ]
 
  -- Martin Konrad <konrad@frib.msu.edu>  Fri, 04 Apr 2014 17:05:45 -0400
 
