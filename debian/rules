@@ -2,12 +2,13 @@
 
 export DH_VERBOSE=1
 
-binary binary-arch binary-indep build install clean:
+%:
 	dh $@ --with epics -Sepicsmake
-install: build
-binary-arch binary-indep: install
-binary: binary-arch binary-indep
 
-override_dh_auto_build:
-	dh_auto_build
-	rm html/_static/jquery.js*
+override_dh_auto_install:
+	dh_auto_install
+	find debian/tmp -name jquery.js -exec ln -sf /usr/share/javascript/jquery/jquery.min.js {} \;
+	find debian/tmp -name underscore.js -exec ln -sf /usr/share/javascript/underscore/underscore.min.js {} \;
+
+override_dh_install:
+	dh_install --fail-missing

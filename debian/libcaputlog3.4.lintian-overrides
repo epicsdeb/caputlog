@@ -1,1 +1,4 @@
+# upstream name has caps...
 libcaputlog3.4: package-name-doesnt-match-sonames libcaPutLog3.4
+# symlink is in a different diretory
+libcaputlog3.4: dev-pkg-without-shlib-symlink

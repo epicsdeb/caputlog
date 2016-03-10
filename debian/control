@@ -1,8 +1,8 @@
 Source: caputlog
 Section: devel
 Priority: extra
-Maintainer: Michael Davidsaver <mdavidsaver@bnl.gov>
-Build-Depends: debhelper (>= 7.0.50~), epics-debhelper (>= 6~),
+Maintainer: Michael Davidsaver <mdavidsaver@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), epics-debhelper (>= 8.14~),
                epics-dev (>= 3.14.11-2),
                python-sphinx,
                rtems-epics-mvme2100,
@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 7.0.50~), epics-debhelper (>= 6~),
                rtems-epics-mvme5500,
 XS-Rtems-Build-Depends: rtems-epics
 X-Epics-Targets: .*
-Standards-Version: 3.8.0
+Standards-Version: 3.9.6
 Homepage: http://www-csr.bessy.de/control/SoftDist/caPutLog/
 
 Package: libcaputlog3.4
@@ -26,7 +26,7 @@ Package: epics-caputlog-dev
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
          libcaputlog3.4 (= ${binary:Version}),
-         libjs-jquery,
+         libjs-jquery, libjs-underscore,
 Description: Logging of CA write operations
  .
  This package provides files needed to build an
