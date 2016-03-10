@@ -1,3 +1,11 @@
+caputlog (3.4-3) unstable; urgency=medium
+
+  * remove missing and unneeded include tsDefs.h
+    Fix build against Base 3.15
+  * update packaging:
+
+ -- Michael Davidsaver <mdavidsaver@gmail.com>  Thu, 10 Mar 2016 18:07:24 -0500
+
 caputlog (3.4-2) unstable; urgency=medium
 
   [ Martin Konrad ]
