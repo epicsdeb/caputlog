@@ -3,7 +3,7 @@ Section: devel
 Priority: extra
 Maintainer: Michael Davidsaver <mdavidsaver@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), epics-debhelper (>= 8.14~),
-               epics-dev (>= 3.14.11-2),
+               epics-dev (>= 3.15.3),
                python-sphinx,
                rtems-epics-mvme2100,
                rtems-epics-mvme2307,
