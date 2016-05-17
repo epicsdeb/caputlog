@@ -11,6 +11,8 @@ caPutLog_SRCS += caPutLogClient.c
 caPutLog_SRCS += caPutLog.c
 caPutLog_SRCS += caPutLogShellCommands.c
 
+caPutLog_LIBS += $(EPICS_BASE_IOC_LIBS)
+
 # API for the IOC
 INC = caPutLog.h
 
