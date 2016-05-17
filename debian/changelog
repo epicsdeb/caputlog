@@ -1,3 +1,10 @@
+caputlog (3.5-1) unstable; urgency=medium
+
+  * Imported Upstream version 3.5
+  * Fixes linking error against Base 3.15
+
+ -- Daron Chabot <chabot@frib.msu.edu>  Tue, 17 May 2016 11:40:45 -0400
+
 caputlog (3.4-3) unstable; urgency=medium
 
   * remove missing and unneeded include tsDefs.h
