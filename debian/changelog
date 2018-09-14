@@ -1,3 +1,9 @@
+caputlog (3.5-2) unstable; urgency=medium
+
+  * Use build profile to enable RTEMS cross build
+
+ -- Martin Konrad <konrad@frib.msu.edu>  Fri, 14 Sep 2018 13:08:11 -0400
+
 caputlog (3.5-1) unstable; urgency=medium
 
   * Imported Upstream version 3.5
