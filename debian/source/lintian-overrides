@@ -1,2 +1,10 @@
 # for epics-debhelper
 caputlog source: unknown-field-in-dsc rtems-build-depends
+caputlog source: invalid-restriction-formula-in-build-profiles-field <pkg.epics-base.rtems> rtems-caputlog-mvme2100
+caputlog source: invalid-restriction-formula-in-build-profiles-field <pkg.epics-base.rtems> rtems-caputlog-mvme2307
+caputlog source: invalid-restriction-formula-in-build-profiles-field <pkg.epics-base.rtems> rtems-caputlog-mvme3100
+caputlog source: invalid-restriction-formula-in-build-profiles-field <pkg.epics-base.rtems> rtems-caputlog-mvme5500
+caputlog source: invalid-profile-name-in-source-relation pkg.epics-base.rtems [build-depends: rtems-epics-mvme2100 <pkg.epics-base.rtems>]
+caputlog source: invalid-profile-name-in-source-relation pkg.epics-base.rtems [build-depends: rtems-epics-mvme2307 <pkg.epics-base.rtems>]
+caputlog source: invalid-profile-name-in-source-relation pkg.epics-base.rtems [build-depends: rtems-epics-mvme3100 <pkg.epics-base.rtems>]
+caputlog source: invalid-profile-name-in-source-relation pkg.epics-base.rtems [build-depends: rtems-epics-mvme5500 <pkg.epics-base.rtems>]

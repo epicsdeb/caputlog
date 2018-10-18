@@ -2,13 +2,13 @@ Source: caputlog
 Section: devel
 Priority: extra
 Maintainer: Michael Davidsaver <mdavidsaver@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~), epics-debhelper (>= 8.14~),
-               epics-dev (>= 3.14.12.3),
+Build-Depends: debhelper (>= 9.20141010), dpkg-dev (>= 1.17.14),
+               epics-debhelper (>= 8.14~), epics-dev (>= 3.14.12.3),
                python-sphinx,
-               rtems-epics-mvme2100,
-               rtems-epics-mvme2307,
-               rtems-epics-mvme3100,
-               rtems-epics-mvme5500,
+               rtems-epics-mvme2100 <pkg.epics-base.rtems>,
+               rtems-epics-mvme2307 <pkg.epics-base.rtems>,
+               rtems-epics-mvme3100 <pkg.epics-base.rtems>,
+               rtems-epics-mvme5500 <pkg.epics-base.rtems>,
 XS-Rtems-Build-Depends: rtems-epics
 X-Epics-Targets: .*
 Standards-Version: 3.9.6
@@ -33,6 +33,7 @@ Description: Logging of CA write operations
  IOC with the CA Put Log support.
 
 Package: rtems-caputlog-mvme2100
+Build-Profiles: <pkg.epics-base.rtems>
 Architecture: all
 Depends: ${rtems:Depends}, epics-caputlog-dev (>= ${binary:Version}),
          epics-caputlog-dev (<< ${binary:Version}.1~), ${misc:Depends},
@@ -41,6 +42,7 @@ Description: Logging of CA write operations
  This package contains support for the MVME2100 PowerPC based VME SBC.
 
 Package: rtems-caputlog-mvme2307
+Build-Profiles: <pkg.epics-base.rtems>
 Architecture: all
 Depends: ${rtems:Depends}, epics-caputlog-dev (>= ${binary:Version}),
          epics-caputlog-dev (<< ${binary:Version}.1~), ${misc:Depends},
@@ -49,6 +51,7 @@ Description: Logging of CA write operations
  This package contains support for the MVME2307 PowerPC based VME SBC.
 
 Package: rtems-caputlog-mvme3100
+Build-Profiles: <pkg.epics-base.rtems>
 Architecture: all
 Depends: ${rtems:Depends}, epics-caputlog-dev (>= ${binary:Version}),
          epics-caputlog-dev (<< ${binary:Version}.1~), ${misc:Depends},
@@ -57,6 +60,7 @@ Description: Logging of CA write operations
  This package contains support for the MVME3100 PowerPC based VME SBC.
 
 Package: rtems-caputlog-mvme5500
+Build-Profiles: <pkg.epics-base.rtems>
 Architecture: all
 Depends: ${rtems:Depends}, epics-caputlog-dev (>= ${binary:Version}),
          epics-caputlog-dev (<< ${binary:Version}.1~), ${misc:Depends},
