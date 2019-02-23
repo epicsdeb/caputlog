@@ -1,3 +1,9 @@
+caputlog (3.6-1) unstable; urgency=medium
+
+  * New upstream version 3.6
+
+ -- Martin Konrad <konrad@frib.msu.edu>  Fri, 22 Feb 2019 22:00:10 -0500
+
 caputlog (3.5-2) unstable; urgency=medium
 
   * Use build profile to enable RTEMS cross build
