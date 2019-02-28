@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 9.20141010), dpkg-dev (>= 1.17.14),
                rtems-epics-mvme5500 <pkg.epics-base.rtems>,
 XS-Rtems-Build-Depends: rtems-epics
 X-Epics-Targets: .*
-Standards-Version: 3.9.6
+Standards-Version: 4.3.0
 Homepage: http://www-csr.bessy.de/control/SoftDist/caPutLog/
 
 Package: libcaputlog3.6
