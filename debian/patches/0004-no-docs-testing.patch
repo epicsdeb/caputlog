@@ -1,0 +1,18 @@
+From: Michael Davidsaver <mdavidsaver@bnl.gov>
+Date: Fri, 9 Mar 2012 14:08:31 -0500
+Subject: no docs testing
+
+---
+ docs/Makefile | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/docs/Makefile b/docs/Makefile
+index 35054e2..bbea1b6 100644
+--- a/docs/Makefile
++++ b/docs/Makefile
+@@ -174,3 +174,5 @@ doctest:
+ 	      "results in $(BUILDDIR)/doctest/output.txt."
+ 
+ endif
++
++runtests:

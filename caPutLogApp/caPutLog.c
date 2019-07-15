@@ -69,22 +69,9 @@ int epicsShareAPI caPutLogInit (const char *addr_str, int config)
 {
     int status;
 
-    switch(config) {
-    case caPutLogNone:
-        printf("caPutLogInit config: Disabled\n");
+    if (config == caPutLogNone) {
         return caPutLogSuccess;
-    case caPutLogOnChange:
-        printf("caPutLogInit config: OnChange\n");
-        break;
-    case caPutLogAll:
-        printf("caPutLogInit config: All\n");
-        break;
-    case caPutLogAllNoFilter:
-        printf("caPutLogInit config: AllNoFilter\n");
-        break;
-    default:
-        printf("caPutLogInit config: Unknown (must be -1, 0, 1, or 2)\n");
-        return caPutLogError;
+        errlogSevPrintf(errlogInfo, "caPutLog: disabled\n");
     }
 
     status = caPutLogClientInit(addr_str);
