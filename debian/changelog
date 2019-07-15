@@ -1,3 +1,11 @@
+caputlog (3.6-2) unstable; urgency=medium
+
+  * Convert package to quilt format
+  * Priority "extra" has been replaced by "optional"
+  * Depend on python3-sphinx
+
+ -- Martin Konrad <konrad@frib.msu.edu>  Mon, 15 Jul 2019 10:44:41 -0400
+
 caputlog (3.6-1) unstable; urgency=medium
 
   * New upstream version 3.6
