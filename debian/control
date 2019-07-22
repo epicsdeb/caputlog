@@ -1,20 +1,20 @@
 Source: caputlog
 Section: devel
-Priority: extra
-Maintainer: Michael Davidsaver <mdavidsaver@gmail.com>
-Build-Depends: debhelper (>= 9.20141010), dpkg-dev (>= 1.17.14),
+Priority: optional
+Maintainer: Martin Konrad <konrad@frib.msu.edu>
+Build-Depends: debhelper (>= 10), dpkg-dev (>= 1.17.14),
                epics-debhelper (>= 8.14~), epics-dev (>= 3.14.12.3),
-               python-sphinx,
+               python3-sphinx,
                rtems-epics-mvme2100 <pkg.epics-base.rtems>,
                rtems-epics-mvme2307 <pkg.epics-base.rtems>,
                rtems-epics-mvme3100 <pkg.epics-base.rtems>,
                rtems-epics-mvme5500 <pkg.epics-base.rtems>,
 XS-Rtems-Build-Depends: rtems-epics
 X-Epics-Targets: .*
-Standards-Version: 3.9.6
+Standards-Version: 4.3.0
 Homepage: http://www-csr.bessy.de/control/SoftDist/caPutLog/
 
-Package: libcaputlog3.5
+Package: libcaputlog3.6
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -25,7 +25,7 @@ Description: Logging of CA write operations
 Package: epics-caputlog-dev
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
-         libcaputlog3.5 (= ${binary:Version}),
+         libcaputlog3.6 (= ${binary:Version}),
          libjs-jquery, libjs-underscore,
 Description: Logging of CA write operations
  .

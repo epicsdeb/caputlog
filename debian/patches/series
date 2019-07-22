@@ -1,0 +1,5 @@
+0001-add-.so-deps.patch
+0002-quiet-warning-about-int-void-int.patch
+0003-print-config-option-on-startup.patch
+0004-no-docs-testing.patch
+0005-Modify-RELEASE-file-for-Debian.patch

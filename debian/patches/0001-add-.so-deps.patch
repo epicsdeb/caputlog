@@ -1,0 +1,21 @@
+From: Michael Davidsaver <mdavidsaver@gmail.com>
+Date: Tue, 17 May 2016 14:41:52 -0400
+Subject: add .so deps
+
+---
+ caPutLogApp/Makefile | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/caPutLogApp/Makefile b/caPutLogApp/Makefile
+index 005c1b5..6f70e63 100644
+--- a/caPutLogApp/Makefile
++++ b/caPutLogApp/Makefile
+@@ -11,6 +11,8 @@ caPutLog_SRCS += caPutLogClient.c
+ caPutLog_SRCS += caPutLog.c
+ caPutLog_SRCS += caPutLogShellCommands.c
+ 
++caPutLog_LIBS += $(EPICS_BASE_IOC_LIBS)
++
+ # API for the IOC
+ INC = caPutLog.h
+ 

@@ -1,3 +1,17 @@
+caputlog (3.6-2) unstable; urgency=medium
+
+  * Convert package to quilt format
+  * Priority "extra" has been replaced by "optional"
+  * Depend on python3-sphinx
+
+ -- Martin Konrad <konrad@frib.msu.edu>  Mon, 15 Jul 2019 10:44:41 -0400
+
+caputlog (3.6-1) unstable; urgency=medium
+
+  * New upstream version 3.6
+
+ -- Martin Konrad <konrad@frib.msu.edu>  Fri, 22 Feb 2019 22:00:10 -0500
+
 caputlog (3.5-2) unstable; urgency=medium
 
   * Use build profile to enable RTEMS cross build
